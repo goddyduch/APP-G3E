@@ -1,0 +1,49 @@
+@font-face {
+    font-family:"Lato";
+    src: url("lato/Lato-Black.ttf") format('truetype');
+}
+
+body
+{
+    font-family:Lato, Arial, serif;
+    background: #FDE9E0;
+}
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+}
+#conteneurheader
+{
+    display: flex;
+}
+#sectioncentre
+{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top : 12%;
+    border: 2px groove #000000;
+    text-align: center;
+    background: #EFEFEF;
+}
+#sectionimage
+{
+    text-align: center;
+}
+input[type="submit"]
+{
+    background-color: #C0C0C0;
+    border: 1px groove #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin: 10px;
+}
+.form
+{
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
